@@ -4,16 +4,21 @@
 
 # Dataset dan Audio Files
 # ------------------------
-data/
+# Tetap kirim struktur folder sampai level kata kunci, tapi tidak kirim file audionya
 *.wav
 *.mp3
 *.m4a
 *.flac
 *.aac
 *.ogg
+*.wma
+
+# Folder audio samples lainnya (bukan struktur utama)
 audio_samples/
 recordings/
 raw_audio/
+temp_audio/
+test_recordings/
 
 # Model Files dan Cache
 # ---------------------
